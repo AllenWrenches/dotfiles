@@ -38,18 +38,29 @@ CASKS=(
     flux
     google-chrome
     google-chrome-canary
+    grandperspective
+    handbrake
     imagealpha
     imageoptim
     integrity
     iterm2
     licecap
+    mamp
+    mp4tools
     rdio
+    scansnap-manager
+    sequel-pro
+    sketchup
     skype
     spectacle
     sublime-text3
+    superduper
     the-unarchiver
     tower
+    transmit
     tunnelbear
+    utorrent
+    virtualbox
     vlc
 )
 
@@ -67,7 +78,7 @@ echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH.
 
 brew cask install --appdir="/Applications" ${CASKS[@]}
 
-echo "Put your license in Sublime and Tower"
+echo "Put your license in Alfred, Sublime, SuperDuper, Tower, Transmit"
 echo "Install 1Password, Reeder, Wunderlist, and Tweetbot"
 
 brew cleanup
