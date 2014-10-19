@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ln -s $PWD ~/dotfiles
+ln -s ~/Projects/dotfiles ~/dotfiles
 
 cd "$(dirname "${BASH_SOURCE}")";
 
