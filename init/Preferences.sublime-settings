@@ -1,10 +1,16 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_with_fields": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 4,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
 	"default_encoding": "UTF-8",
-	"default_line_ending": "unix",
-	"detect_indentation": false,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": false,
+	"detect_indentation": true,
+	"fade_fold_buttons": true,
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -17,25 +23,32 @@
 	],
 	"folder_exclude_patterns":
 	[
+		".svn",
 		".git",
+		".hg",
+		"CVS",
+		"tmp",
+		".bundle",
+		".sass-cache",
 		"node_modules"
 	],
-	"font_face": "Monaco",
-	"font_size": 13,
+	"font_face": "Source Code Pro",
+	"font_size": 14.0,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"hot_exit": false,
-	"line_padding_bottom": 5,
-	"match_brackets": true,
-	"match_brackets_angle": true,
-	"remember_open_files": false,
-	"rulers":
+	"ignored_packages":
 	[
-		80
+		"Vintage"
 	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"preview_on_click": false,
 	"show_encoding": true,
-	"show_line_endings": true,
+	"show_minimap": false,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": false,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"wide_caret": true,
+	"word_wrap": true,
+	"wrap_width": 110
 }
