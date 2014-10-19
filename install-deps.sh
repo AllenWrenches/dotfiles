@@ -9,3 +9,7 @@ sudo gem install jekyll
 
 # Set symlink for Sublime Text 2
 ln -s "/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+
+# Run Brewfile
+brew tap homebrew/boneyard
+brew bundle Brewfile
