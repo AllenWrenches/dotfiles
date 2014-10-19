@@ -47,6 +47,7 @@ CASKS=(
     licecap
     mamp
     mp4tools
+    onepassword
     rdio
     scansnap-manager
     sequel-pro
