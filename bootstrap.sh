@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-ln -s ~/Projects/dotfiles ~/dotfiles
-
 cd "$(dirname "${BASH_SOURCE}")";
 
 git pull origin master;
