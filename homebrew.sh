@@ -52,7 +52,7 @@ CASKS=(
     sketchup
     skype
     spectacle
-    sublime-text
+    sublime-text-3
     superduper
     the-unarchiver
     tower
@@ -76,10 +76,7 @@ echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH.
 
 brew cask install --appdir="/Applications" ${CASKS[@]}
 
-echo "Put your license in Alfred, Sublime, SuperDuper, Tower, Transmit"
-echo "Install 1Password, Reeder, Wunderlist, and Tweetbot"
+echo "Put your license in 1Password, Alfred, Sublime, SuperDuper, Tower, Transmit"
+echo "Install Reeder, Wunderlist, and Tweetbot"
 
 brew cleanup
-
-# Set symlink for Sublime Text 3
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
