@@ -52,7 +52,7 @@ CASKS=(
     sketchup
     skype
     spectacle
-    sublime-text3
+    sublime-text
     superduper
     the-unarchiver
     tower
