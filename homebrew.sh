@@ -5,7 +5,7 @@ TAPS=(
     homebrew/versions
     caskroom/cask
     caskroom/fonts
-    caskroom/versions
+    caskroom/homebrew-versions
 )
 
 # Homebrew Formulas
@@ -52,7 +52,7 @@ CASKS=(
     sketchup
     skype
     spectacle
-    sublime-text-3
+    sublime-text3
     superduper
     the-unarchiver
     tower
