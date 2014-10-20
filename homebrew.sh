@@ -76,7 +76,7 @@ brew tap ${TAPS[@]} && brew install ${FORMULAS[@]}
 
 echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
 
-brew cask install --appdir="~/Applications" ${CASKS[@]}
+brew cask install --appdir="/Applications" ${CASKS[@]}
 
 echo "Put your license in Alfred, Sublime, SuperDuper, Tower, Transmit"
 echo "Install 1Password, Reeder, Wunderlist, and Tweetbot"
