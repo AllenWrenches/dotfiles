@@ -10,6 +10,7 @@ TAPS=(
 
 # Homebrew Formulas
 FORMULAS=(
+    gcc
     coreutils
     moreutils
     findutils

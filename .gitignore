@@ -16,6 +16,7 @@ Thumbs.db
 # Node and Sass
 .sass-cache
 node_modules
+npm-debug.log
 
 # Bonus config to keep out of repo
 .extra
