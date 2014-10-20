@@ -58,7 +58,6 @@ CASKS=(
     tower
     transmit
     tunnelbear
-    utorrent
     virtualbox
     vlc
 )
