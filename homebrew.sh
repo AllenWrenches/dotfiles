@@ -38,9 +38,7 @@ CASKS=(
     firefox
     flux
     google-chrome
-    google-chrome-canary
     grandperspective
-    handbrake
     imagealpha
     imageoptim
     integrity
