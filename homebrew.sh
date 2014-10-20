@@ -18,7 +18,7 @@ FORMULAS=(
     gnu-sed --default-names
     bash
     bash-completion
-    wget --enable-iri
+    wget --with-iri
     vim --override-system-vi
     homebrew/dupes/grep
     homebrew/dupes/screen
