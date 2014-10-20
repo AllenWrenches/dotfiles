@@ -12,6 +12,3 @@ sudo gem update --system --no-document
 sudo gem install jekyll
 sudo gem install github-pages
 sudo gem install sass
-
-# Set symlink for Sublime Text 2
-ln -s "/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl" ~/bin/subl

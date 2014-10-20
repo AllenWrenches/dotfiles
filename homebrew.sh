@@ -10,6 +10,7 @@ TAPS=(
 
 # Homebrew Formulas
 FORMULAS=(
+    caskroom/cask/brew-cask
     gcc
     coreutils
     moreutils
@@ -18,13 +19,12 @@ FORMULAS=(
     bash
     bash-completion
     wget --enable-iri
-    install vim --override-system-vi
+    vim --override-system-vi
     homebrew/dupes/grep
     homebrew/dupes/screen
-    install git
-    install node
-    install tree
-    caskroom/cask/brew-cask
+    git
+    node
+    tree
 )
 
 # Homebrew casks
@@ -78,9 +78,12 @@ brew tap ${TAPS[@]} && brew install ${FORMULAS[@]}
 
 echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
 
-brew cask install --appdir="/Applications" ${CASKS[@]}
+brew cask install --appdir="~/Applications" ${CASKS[@]}
 
 echo "Put your license in Alfred, Sublime, SuperDuper, Tower, Transmit"
 echo "Install 1Password, Reeder, Wunderlist, and Tweetbot"
 
 brew cleanup
+
+# Set symlink for Sublime Text 3
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
