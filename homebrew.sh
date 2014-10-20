@@ -48,7 +48,6 @@ CASKS=(
     mp4tools
     onepassword
     rdio
-    scansnap-manager
     sequel-pro
     sketchup
     skype
