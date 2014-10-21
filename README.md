@@ -14,7 +14,7 @@ git clone https://github.com/jsnmrs/dotfiles.git
 
 On a fresh OSX install, running git will prompt to download and install XCode Command Line Tools.
 
-After XCode Command Line Tools is installed, re-run the git clone command.
+After XCode Command Line Tools are installed, re-run the git clone command.
 
 To copy the dotfiles to your home directory, `cd` into your local `dotfiles` repository and then:
 
