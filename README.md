@@ -36,6 +36,10 @@ source homebrew.sh
 source .osx
 ```
 
+```bash
+source sublime.sh
+```
+
 ### Specify the `$PATH`
 
 If `~/.path` exists, it will be sourced along with the other files, before any feature testing takes place.
