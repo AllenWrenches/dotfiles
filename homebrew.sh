@@ -37,6 +37,11 @@ CASKS=(
     filezilla
     firefox
     flux
+    font-inconsolata
+    font-lato
+    font-source-code-pro
+    font-source-sans-pro
+    font-source-serif-pro
     google-chrome
     grandperspective
     imagealpha
