@@ -80,3 +80,5 @@ echo "Put your license in 1Password, Alfred, Sublime, SuperDuper, Tower, Transmi
 echo "Install Reeder, Wunderlist, and Tweetbot"
 
 brew cleanup
+
+brew cask alfred link
