@@ -11,3 +11,7 @@ ln -s ~/Dropbox/Apps/SublimeText/User
 echo " "
 echo "Now open Sublime Text and install Package Control using the code from:"
 echo "https://sublime.wbond.net/installation"
+echo " "
+echo "and install Source Code Pro font family:"
+echo "https://github.com/adobe-fonts/source-code-pro"
+echo " "
