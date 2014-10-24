@@ -48,6 +48,7 @@ brew cask install --appdir="/Applications" mp4tools
 brew cask install --appdir="/Applications" onepassword
 brew cask install --appdir="/Applications" quicktime-player7
 brew cask install --appdir="/Applications" rdio
+brew cask install --appdir="/Applications" ripit
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" sketchup
 brew cask install --appdir="/Applications" skype
@@ -59,6 +60,7 @@ brew cask install --appdir="/Applications" torbrowser
 brew cask install --appdir="/Applications" tower
 brew cask install --appdir="/Applications" transmit
 brew cask install --appdir="/Applications" tunnelbear
+brew cask install --appdir="/Applications" utorrent
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vlc
 
