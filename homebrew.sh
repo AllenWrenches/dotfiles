@@ -17,6 +17,7 @@ brew install gcc
 brew install coreutils
 brew install moreutils
 brew install findutils
+brew install libidn
 brew install gnu-sed --default-names
 brew install bash
 brew install bash-completion
