@@ -50,6 +50,7 @@ brew cask install --appdir="/Applications" mp4tools
 brew cask install --appdir="/Applications" onepassword
 brew cask install --appdir="/Applications" quicktime-player7
 brew cask install --appdir="/Applications" rdio
+brew cask install --appdir="/Applications" repetier-host
 brew cask install --appdir="/Applications" ripit
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" sketchup
