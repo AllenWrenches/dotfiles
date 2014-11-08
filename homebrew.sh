@@ -55,6 +55,7 @@ brew cask install --appdir="/Applications" ripit
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" sketchup
 brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" slic3r
 brew cask install --appdir="/Applications" spectacle
 brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" superduper
