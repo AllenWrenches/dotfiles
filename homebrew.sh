@@ -44,7 +44,6 @@ brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" integrity
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" licecap
-brew cask install --appdir="/Applications" mamp
 brew cask install --appdir="/Applications" mapbox-studio
 brew cask install --appdir="/Applications" mp4tools
 brew cask install --appdir="/Applications" onepassword
