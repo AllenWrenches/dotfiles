@@ -66,6 +66,8 @@ brew cask install --appdir="/Applications" tower
 brew cask install --appdir="/Applications" transmit
 brew cask install --appdir="/Applications" tunnelbear
 brew cask install --appdir="/Applications" utorrent
+brew cask install --appdir="/Applications" vagrant
+brew cask install --appdir="/Applications" vagrant-manager
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vlc
 
