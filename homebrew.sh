@@ -45,10 +45,11 @@ brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" integrity
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" licecap
+brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" mapbox-studio
 brew cask install --appdir="/Applications" mp4tools
 brew cask install --appdir="/Applications" onepassword
-brew cask install --appdir="/Applications" quicktime-player7
+brew cask install --appdir="/Applications" quicktime-player7S
 brew cask install --appdir="/Applications" rdio
 brew cask install --appdir="/Applications" repetier-host
 brew cask install --appdir="/Applications" ripit
@@ -75,11 +76,6 @@ brew cask install font-inconsolata
 brew cask install font-source-code-pro
 brew cask install font-source-sans-pro
 brew cask install font-source-serif-pro
-
-echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
-echo " "
-echo "Put your license in 1Password, Alfred, Sublime, SuperDuper, Tower, Transmit"
-echo "Install Reeder, Wunderlist, and Tweetbot"
 
 brew cleanup
 
