@@ -12,3 +12,4 @@ sudo gem update --system --no-document
 sudo gem install jekyll
 sudo gem install github-pages
 sudo gem install sass
+sudo gem install foundation
