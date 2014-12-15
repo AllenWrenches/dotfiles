@@ -32,6 +32,7 @@ brew install tree
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" caffeine
+brew cask install --appdir="/Applications" calibre
 brew cask install --appdir="/Applications" diffmerge
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" filezilla
