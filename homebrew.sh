@@ -71,6 +71,7 @@ brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" vagrant-manager
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vlc
+brew cask install --appdir="/Applications" zoomus
 
 brew cask install font-inconsolata
 brew cask install font-source-code-pro
