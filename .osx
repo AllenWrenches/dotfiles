@@ -123,6 +123,12 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 #sudo rm -rf /System/Library/CoreServices/DefaultDesktop.jpg
 #sudo ln -s /path/to/your/image /System/Library/CoreServices/DefaultDesktop.jpg
 
+# Disable Guest account
+sudo defaults write /Library/Preferences/com.apple.loginwindow GuestEnabled -bool NO
+
+# Turn on firewall
+sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
+
 ###############################################################################
 # SSD-specific tweaks                                                         #
 ###############################################################################
