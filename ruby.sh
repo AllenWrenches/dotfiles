@@ -3,7 +3,9 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew doctor
 
 # Install rvm
-curl -L https://get.rvm.io | bash -s stable --autolibs=enable
+curl -L https://get.rvm.io | bash -s stable --ruby --autolibs=enable --auto-dotfiles
+
+source /Users/jason/.rvm/scripts/rvm
 
 # Check gems are up to date without installing documentation
 sudo gem update --system --no-document
