@@ -48,6 +48,7 @@ brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" grandperspective
 brew cask install --appdir="/Applications" handbrake
+brew cask install --appdir="/Applications" hipchat
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" integrity
