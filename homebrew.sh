@@ -30,6 +30,7 @@ brew install bash-completion
 brew install wget --with-iri
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
+brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install git
 brew install node
