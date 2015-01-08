@@ -5,7 +5,7 @@ brew doctor
 # Install rvm
 curl -L https://get.rvm.io | bash -s stable --ruby --autolibs=enable --auto-dotfiles
 
-source /Users/jason/.rvm/scripts/rvm
+source $HOME/.rvm/scripts/rvm
 
 # Check gems are up to date without installing documentation
 sudo gem update --system --no-document
