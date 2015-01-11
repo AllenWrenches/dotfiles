@@ -59,6 +59,7 @@ brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" mapbox-studio
 brew cask install --appdir="/Applications" mp4tools
 brew cask install --appdir="/Applications" onepassword
+brew cask install --appdir="/Applications" openscad
 brew cask install --appdir="/Applications" rdio
 brew cask install --appdir="/Applications" repetier-host
 brew cask install --appdir="/Applications" ripit
