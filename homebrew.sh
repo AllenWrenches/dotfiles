@@ -37,6 +37,7 @@ brew install node
 brew install tree
 brew install speedtest_cli
 
+brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" caffeine
@@ -58,7 +59,6 @@ brew cask install --appdir="/Applications" licecap
 brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" mapbox-studio
 brew cask install --appdir="/Applications" mp4tools
-brew cask install --appdir="/Applications" onepassword
 brew cask install --appdir="/Applications" openscad
 brew cask install --appdir="/Applications" rdio
 brew cask install --appdir="/Applications" repetier-host
