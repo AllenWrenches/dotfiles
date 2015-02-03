@@ -16,3 +16,4 @@ sudo gem install github-pages
 sudo gem install sass
 sudo gem install foundation
 sudo gem install compass
+sudo gem install scss-lint
