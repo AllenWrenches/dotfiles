@@ -11,6 +11,7 @@ source $HOME/.rvm/scripts/rvm
 sudo gem update --system --no-document
 
 # Install gems
+sudo gem install bundle
 sudo gem install jekyll
 sudo gem install github-pages
 sudo gem install sass
