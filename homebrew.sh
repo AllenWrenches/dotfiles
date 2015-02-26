@@ -89,6 +89,9 @@ brew cask install font-source-code-pro
 brew cask install font-source-sans-pro
 brew cask install font-source-serif-pro
 
+# Some useful QuickLook plugins
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+
 brew cleanup
 
 brew cask cleanup
