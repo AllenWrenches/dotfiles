@@ -3,7 +3,7 @@
 function gitdiff() {
   local timestamp = $(date +%Y%m%d%H%M%S);
   git diff --name-status HEAD $1 > ~/Desktop/diff$timestamp.txt
-   && subl ~/Desktop/diff$timestamp.txt
+   && subl ~/Desktop/diff$timestamp.txt;
 }
 
 # Simple calculator
