@@ -1,6 +1,9 @@
-# Git diff from HEAD to commit hash, sent to file on desktop
+# Git diff from HEAD to commit hash,
+# send to file on desktop, open in sublime text
 function gitdiff() {
-  git diff --name-status HEAD $1 > ~/Desktop/diff.txt
+  local timestamp = $(date +%Y%m%d%H%M%S);
+  git diff --name-status HEAD $1 > ~/Desktop/diff$timestamp.txt
+   && subl ~/Desktop/diff$timestamp.txt
 }
 
 # Simple calculator
