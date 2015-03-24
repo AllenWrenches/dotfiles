@@ -85,7 +85,6 @@ brew cask install --appdir="/Applications" tunnelbear
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vlc
-brew cask install --appdir="/Applications" xtrafinder
 brew cask install --appdir="/Applications" zoomus
 
 brew cask install font-inconsolata
