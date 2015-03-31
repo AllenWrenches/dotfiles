@@ -67,6 +67,7 @@ brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" mapbox-studio
 brew cask install --appdir="/Applications" mp4tools
 brew cask install --appdir="/Applications" openscad
+brew cask install --appdir="/Applications" opera
 brew cask install --appdir="/Applications" rdio
 brew cask install --appdir="/Applications" ripit
 brew cask install --appdir="/Applications" sequel-pro
