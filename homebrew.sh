@@ -35,6 +35,7 @@ brew install homebrew/dupes/screen
 brew install git
 brew install node
 brew install tree
+brew install ssh-copy-id
 brew install speedtest_cli
 
 brew cask install --appdir="/Applications" 1password
