@@ -33,6 +33,7 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install git
+brew install git-lfs
 brew install node
 brew install tree
 brew install ssh-copy-id
