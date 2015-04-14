@@ -5,3 +5,4 @@ export PATH="/usr/local/sbin:$PATH"
 source $HOME/.rvm/scripts/rvm
 
 export PATH="~/.composer/vendor/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
