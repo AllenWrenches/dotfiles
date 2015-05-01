@@ -7,7 +7,7 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Make sure we’re using the latest Homebrew
-brew update
+brew update --all
 
 # Upgrade any already-installed formulae
 brew upgrade
