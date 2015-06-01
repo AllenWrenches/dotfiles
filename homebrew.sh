@@ -38,6 +38,7 @@ brew install node
 brew install tree
 brew install ssh-copy-id
 brew install speedtest_cli
+brew install dark-mode
 
 brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" 4k-video-downloader
