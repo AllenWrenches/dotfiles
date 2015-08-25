@@ -71,6 +71,7 @@ brew cask install --appdir="/Applications" kitematic
 brew cask install --appdir="/Applications" libreoffice
 brew cask install --appdir="/Applications" licecap
 brew cask install --appdir="/Applications" little-snitch
+brew cask install --appdir="/Applications" malwarebytes-anti-malware
 brew cask install --appdir="/Applications" mapbox-studio
 brew cask install --appdir="/Applications" mp4tools
 brew cask install --appdir="/Applications" namechanger
