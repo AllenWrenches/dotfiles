@@ -72,6 +72,7 @@ brew cask install --appdir="/Applications" namechanger
 brew cask install --appdir="/Applications" nvalt
 brew cask install --appdir="/Applications" openscad
 brew cask install --appdir="/Applications" opera
+brew cask install --appdir="/Applications" pandoc
 brew cask install --appdir="/Applications" rdio
 brew cask install --appdir="/Applications" ripit
 brew cask install --appdir="/Applications" sequel-pro
