@@ -82,7 +82,6 @@ brew cask install --appdir="/Applications" slic3r
 brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" superduper
 brew cask install --appdir="/Applications" the-unarchiver
-brew cask install --appdir="/Applications" tomahawk
 brew cask install --appdir="/Applications" tower
 brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" transmit
