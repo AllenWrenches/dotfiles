@@ -42,7 +42,6 @@ brew install dark-mode
 brew install phantomjs
 
 brew cask install --appdir="/Applications" 1password
-brew cask install --appdir="/Applications" 4k-video-downloader
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" appcleaner
@@ -73,6 +72,7 @@ brew cask install --appdir="/Applications" openscad
 brew cask install --appdir="/Applications" opera
 brew cask install --appdir="/Applications" pandoc
 brew cask install --appdir="/Applications" rdio
+brew cask install --appdir="/Applications" rescuetime
 brew cask install --appdir="/Applications" ripit
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" sitesucker
