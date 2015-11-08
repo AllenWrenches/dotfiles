@@ -69,10 +69,8 @@ brew cask install --appdir="/Applications" musicbrainz-picard
 brew cask install --appdir="/Applications" namechanger
 brew cask install --appdir="/Applications" nvalt
 brew cask install --appdir="/Applications" openscad
-brew cask install --appdir="/Applications" opera
 brew cask install --appdir="/Applications" pandoc
 brew cask install --appdir="/Applications" rdio
-brew cask install --appdir="/Applications" rescuetime
 brew cask install --appdir="/Applications" ripit
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" sitesucker
@@ -89,7 +87,6 @@ brew cask install --appdir="/Applications" transmit
 brew cask install --appdir="/Applications" tunnelbear
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
-brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" zoomus
 
 brew cask install font-inconsolata
