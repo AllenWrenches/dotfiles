@@ -77,7 +77,6 @@ brew cask install --appdir="/Applications" sitesucker
 brew cask install --appdir="/Applications" sketchup
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slic3r
-brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" superduper
 brew cask install --appdir="/Applications" teamviewer
