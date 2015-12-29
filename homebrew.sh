@@ -49,6 +49,7 @@ brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" colour-contrast-analyser
 brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" duet
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" flux
