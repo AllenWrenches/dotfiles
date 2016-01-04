@@ -45,6 +45,7 @@ brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" appcleaner
+brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" colour-contrast-analyser
