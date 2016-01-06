@@ -12,13 +12,13 @@ brew update --all
 # Upgrade any already-installed formulae
 brew upgrade
 
-brew tap homebrew/dupes
-brew tap homebrew/versions
-brew tap caskroom/cask
-brew tap caskroom/fonts
-brew tap caskroom/homebrew-versions
+# brew tap homebrew/dupes
+# brew tap homebrew/versions
+# brew tap caskroom/cask
+# brew tap caskroom/fonts
+# brew tap caskroom/homebrew-versions
+# brew install caskroom/cask/brew-cask
 
-brew install caskroom/cask/brew-cask
 brew install gcc
 brew install coreutils
 brew install moreutils
