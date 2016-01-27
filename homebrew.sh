@@ -43,6 +43,7 @@ brew install phantomjs
 
 brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" adobe-creative-cloud
+brew cask install --appdir="/Applications" acquia-dev-desktop
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" atom
