@@ -68,6 +68,7 @@ brew cask install --appdir="/Applications" java
 brew cask install --appdir="/Applications" kaleidoscope
 brew cask install --appdir="/Applications" licecap
 brew cask install --appdir="/Applications" little-snitch
+brew cask install --appdir="/Applications" macdown
 brew cask install --appdir="/Applications" malwarebytes-anti-malware
 brew cask install --appdir="/Applications" mou
 brew cask install --appdir="/Applications" mp4tools
