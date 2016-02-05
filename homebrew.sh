@@ -12,13 +12,6 @@ brew update --all
 # Upgrade any already-installed formulae
 brew upgrade
 
-# brew tap homebrew/dupes
-# brew tap homebrew/versions
-# brew tap caskroom/cask
-# brew tap caskroom/fonts
-# brew tap caskroom/homebrew-versions
-# brew install caskroom/cask/brew-cask
-
 brew install gcc
 brew install coreutils
 brew install moreutils
@@ -51,7 +44,6 @@ brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" colour-contrast-analyser
 brew cask install --appdir="/Applications" dropbox
-brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" github-desktop
@@ -70,7 +62,6 @@ brew cask install --appdir="/Applications" licecap
 brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" macdown
 brew cask install --appdir="/Applications" malwarebytes-anti-malware
-brew cask install --appdir="/Applications" mou
 brew cask install --appdir="/Applications" mp4tools
 brew cask install --appdir="/Applications" musicbrainz-picard
 brew cask install --appdir="/Applications" namechanger
@@ -106,7 +97,7 @@ brew cask install font-source-sans-pro
 brew cask install font-source-serif-pro
 
 # Some useful QuickLook plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+brew cask install qlmarkdown quicklook-json qlimagesize
 
 brew cleanup
 
