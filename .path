@@ -1,6 +1,7 @@
 # Add RVM to PATH for scripting
 export PATH="$HOME/.rvm/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/bin:$PATH"
 
 source $HOME/.rvm/scripts/rvm
+
+export PATH="/usr/local/bin:$PATH"
