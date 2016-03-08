@@ -11,10 +11,11 @@ source $HOME/.rvm/scripts/rvm
 sudo gem update --system --no-document
 
 # Install gems
-sudo gem install bundle
+sudo gem install bundler
 sudo gem install jekyll
 sudo gem install github-pages
 sudo gem install sass
 sudo gem install foundation
 sudo gem install compass
-sudo gem install scss-lint
+sudo gem install scss_lint
+sudo gem install html-proofer
