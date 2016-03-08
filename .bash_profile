@@ -1,8 +1,10 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
+export PATH="/usr/local/sbin:$PATH";
+
 # Set up RVM
-source $HOME/.rvm/scripts/rvm
+source $HOME/.rvm/scripts/rvm;
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
