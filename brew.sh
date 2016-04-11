@@ -36,6 +36,7 @@ brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" acquia-dev-desktop
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" appcleaner
+brew cask install --appdir="/Applications" atext
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" caffeine
