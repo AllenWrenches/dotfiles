@@ -45,6 +45,7 @@ brew cask install --appdir="/Applications" handbrake
 brew cask install --appdir="/Applications" handbrakecli
 brew cask install --appdir="/Applications" hazel
 brew cask install --appdir="/Applications" hipchat
+brew cask install --appdir="/Applications" hyperterm
 brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" iterm2-beta
 brew cask install --appdir="/Applications" java
