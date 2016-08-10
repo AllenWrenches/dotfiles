@@ -37,6 +37,7 @@ brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" couleurs
 brew cask install --appdir="/Applications" colour-contrast-analyser
 brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" exifrenamer
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" google-chrome
@@ -78,6 +79,7 @@ brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" transmit
 brew cask install --appdir="/Applications" tunnelbear
 brew cask install --appdir="/Applications" vagrant
+brew cask install --appdir="/Applications" veracrypt
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" zoomus
 
