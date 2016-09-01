@@ -20,6 +20,7 @@ brew install homebrew/dupes/openssh
 brew install git
 brew install imagemagick --with-webp
 brew install node
+brew install pandoc
 brew install phantomjs
 brew install speedtest_cli
 brew install ssh-copy-id
@@ -37,6 +38,7 @@ brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" couleurs
 brew cask install --appdir="/Applications" colour-contrast-analyser
 brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" exifrenamer
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" google-chrome
@@ -60,7 +62,6 @@ brew cask install --appdir="/Applications" nvalt
 brew cask install --appdir="/Applications" openemu
 brew cask install --appdir="/Applications" openscad
 brew cask install --appdir="/Applications" qbserve
-brew cask install --appdir="/Applications" pandoc
 brew cask install --appdir="/Applications" ripit
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" sitesucker
@@ -78,6 +79,7 @@ brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" transmit
 brew cask install --appdir="/Applications" tunnelbear
 brew cask install --appdir="/Applications" vagrant
+brew cask install --appdir="/Applications" veracrypt
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" zoomus
 
