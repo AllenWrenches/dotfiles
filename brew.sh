@@ -20,6 +20,7 @@ brew install homebrew/dupes/openssh
 brew install git
 brew install imagemagick --with-webp
 brew install node
+brew install pandoc
 brew install phantomjs
 brew install speedtest_cli
 brew install ssh-copy-id
@@ -61,7 +62,6 @@ brew cask install --appdir="/Applications" nvalt
 brew cask install --appdir="/Applications" openemu
 brew cask install --appdir="/Applications" openscad
 brew cask install --appdir="/Applications" qbserve
-brew cask install --appdir="/Applications" pandoc
 brew cask install --appdir="/Applications" ripit
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" sitesucker
