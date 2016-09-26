@@ -33,6 +33,10 @@ source brew.sh
 ```
 
 ```bash
+source node.sh
+```
+
+```bash
 source .macos
 ```
 
