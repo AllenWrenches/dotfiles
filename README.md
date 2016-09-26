@@ -29,11 +29,11 @@ source ruby.sh
 ```
 
 ```bash
-source homebrew.sh
+source brew.sh
 ```
 
 ```bash
-source .osx
+source .macos
 ```
 
 ```bash
