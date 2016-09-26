@@ -80,6 +80,7 @@ brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" zoomus
 
 # Install fonts with Cask
+brew tap caskroom/fonts
 brew cask install font-inconsolata
 brew cask install font-source-code-pro
 brew cask install font-source-sans-pro
