@@ -78,6 +78,14 @@ if [ "$DockClear" == "y" ]
     defaults write com.apple.dock persistent-apps -array
 fi
 
+# Kill affected applications
+for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
+  "Dock" "Finder" "Google Chrome" "Google Chrome Canary" "Mail" "Messages" \
+  "Opera" "Photos" "Safari" "SizeUp" "Spectacle" "SystemUIServer" "Terminal" \
+  "Transmission" "Tweetbot" "Twitter" "iCal"; do
+  killall "${app}" &> /dev/null
+done
+
 # Clean things up.
 brew linkapps
 brew cleanup
