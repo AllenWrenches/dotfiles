@@ -58,7 +58,20 @@ mas install 407963104 # Pixelmator
 open -a Dropbox
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "kitt"
-sudo scutil --set HostName "kitt"
-sudo scutil --set LocalHostName "kitt"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "kitt"
+read -p "Computer name? " CompName
+
+if [ "$CompName" == "" ]
+  then
+    CompName=MacbookPro
+fi
+
+sudo scutil --set ComputerName "$CompName"
+sudo scutil --set HostName "$CompName"
+sudo scutil --set LocalHostName "$CompName"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$CompName"
+
+# Clean things up.
+brew linkapps
+brew cleanup
+brew prune
+brew cask cleanup
