@@ -164,6 +164,34 @@ brew cleanup
 brew prune
 brew cask cleanup
 
+# Install rvm
+curl -L https://get.rvm.io | bash -s stable --ruby --autolibs=enable --auto-dotfiles
+
+source $HOME/.rvm/scripts/rvm
+
+# Install gems
+sudo gem install bundler
+sudo gem install jekyll
+sudo gem install github-pages
+sudo gem install sass
+sudo gem install compass
+sudo gem install scss_lint
+sudo gem install html-proofer
+
+# Check gems are up to date without installing documentation
+sudo gem update --system --no-document
+
+# Install Node libraries globally
+npm install -g a11y
+npm install -g bower
+npm install -g caniuse-cmd
+npm install -g git-recent
+npm install -g grunt-cli
+npm install -g js-hint
+npm install -g pa11y
+npm install -g parker
+npm install -g sass-lint
+
 # Kill affected applications
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
   "Dock" "Finder" "Google Chrome" "Google Chrome Canary" "Mail" "Messages" \
