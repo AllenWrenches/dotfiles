@@ -57,18 +57,26 @@ mas install 407963104 # Pixelmator
 # Open apps so I'll not forget to login
 open -a Dropbox
 
-# Set computer name (as done via System Preferences → Sharing)
+# Set computer name (with prompt) (as done via System Preferences → Sharing)
 read -p "Computer name? " CompName
-
 if [ "$CompName" == "" ]
   then
     CompName=MacbookPro
 fi
-
 sudo scutil --set ComputerName "$CompName"
 sudo scutil --set HostName "$CompName"
 sudo scutil --set LocalHostName "$CompName"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$CompName"
+
+# Clear out dock (with prompt)
+read -p "Clear dock? " DockClear
+if [ "$DockClear" == "y" ]
+  then
+    # Wipe all (default) app icons from the Dock
+    # This is only really useful when setting up a new Mac, or if you don’t use
+    # the Dock to launch apps.
+    defaults write com.apple.dock persistent-apps -array
+fi
 
 # Clean things up.
 brew linkapps
