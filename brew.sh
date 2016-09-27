@@ -54,6 +54,7 @@ brew cask install --appdir="/Applications" licecap
 brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" macdown
 brew cask install --appdir="/Applications" malwarebytes-anti-malware
+brew cask install --appdir="/Applications" microsoft-office
 brew cask install --appdir="/Applications" musicbrainz-picard
 brew cask install --appdir="/Applications" namechanger
 brew cask install --appdir="/Applications" nvalt
