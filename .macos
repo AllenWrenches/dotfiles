@@ -133,8 +133,20 @@ sudo systemsetup -setcomputersleep Off > /dev/null
 # Disable Guest account
 sudo defaults write /Library/Preferences/com.apple.loginwindow GuestEnabled -bool NO
 
+# Display login window as name and password
+sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool true
+
+# Do not show password hints
+sudo defaults write /Library/Preferences/com.apple.loginwindow RetriesUntilHint -int 0
+
 # Turn on firewall
 sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
+
+# Disable the crash reporter
+defaults write com.apple.CrashReporter DialogType -string "none"
+
+# Disable diagnostic reports
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.SubmitDiagInfo.plist
 
 ###############################################################################
 # SSD-specific tweaks                                                         #
