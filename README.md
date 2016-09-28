@@ -1,76 +1,72 @@
-# Jason's dotfiles
+# Dotfiles
 
-A fork of Mathias’s amazing dotfiles: https://mths.be/dotfiles
+A fork of [Mathias Bynens' dotfiles](https://mths.be/dotfiles).
 
 This setup is fairly personalized and my first swing at using replicable dotfiles. You'll definitely want to review what will be installed before actually running the scripts.
 
-## Installation
+## Clean install of macOS 10.12
 
-You can clone the repository wherever you want (I keep it in `~/Projects/dotfiles`). The bootstrapper script will pull in the latest version and copy the files to your home folder.
+My steps for a clean macOS install, using these dotfiles.
 
-```bash
-git clone https://github.com/jsnmrs/dotfiles.git
-```
+### Post-install
 
-On a fresh OSX install, running git will prompt to download and install XCode Command Line Tools.
+1. Sign in with AppleID
+2. Configure iCloud, etc
+3. Record FileVault Recovery Key in a safe location
 
-After XCode Command Line Tools are installed, re-run the git clone command.
+### Xcode Command Line Tools
 
-To copy the dotfiles to your home directory, `cd` into your local `dotfiles` repository and then:
+Before you can do much on the command line (like using Git), Xcode Command Line Tools need to be installed and the license agreed to.
 
-```bash
-source bootstrap.sh
-```
+1. Open Applications > Utilites > Terminal
+2. Install Xcode Command Line Tools ```xcode-select --install```
+3. Click install, agree to license
 
-To complete the installation of all applications, dependencies, etc run the follow commands from the `dotfiles` directory: 
+### Dotfiles
 
-```bash
-source ruby.sh
-```
+Clone dotfiles repo into ```~/Projects/dotfiles``` and copy configuration into user's home directory:
 
-```bash
-source brew.sh
-```
+1. ```mkdir ~/Projects && cd Projects```
+2. ```git clone https://github.com/jsnmrs/dotfiles.git && cd dotfiles```
+3. ```source bootstrap.sh```
 
-```bash
-source node.sh
-```
+### Installing Applications
 
-```bash
-source .macos
-```
+The [install.sh script](https://github.com/jsnmrs/dotfiles/blob/master/install.sh) takes care of the majority of installations. This script will:
 
-```bash
-source sublime.sh
-```
+- Check for App Store Updates
+- Ask for computer name
+- Offer to delete default dock icons
+- Install Homebrew, download taps, update/upgrade Homebrew
+- Install specific Mac App Store apps (will prompt for AppleID)
+- Install utilites, fonts, quick look plugins, and applications via Cask
+- Open applications that need to be logged into (Dropbox, Slack)
+- Run brew clean up tasks
+- Install RVM, specific Ruby gems globally
+- Install specific Node libraries globally
+- Kill/reload Dock, Finder, etc
 
-### Specify the `$PATH`
+Run with ```source install.sh```
 
-If `~/.path` exists, it will be sourced along with the other files, before any feature testing takes place.
+### macOS Configuration
 
-Here’s an example `~/.path` file that adds `~/utils` to the `$PATH`:
+The [.macos script](https://github.com/jsnmrs/dotfiles/blob/master/.macos) (a modified version of [Mathias Bynens' .macos script](https://mths.be/macos)) sets some sensible macOS defaults.
 
-```bash
-export PATH="$HOME/utils:$PATH"
-```
+Run with ```source .macos```
 
-### Add custom commands without creating a new fork
+### More Setup
 
-If `~/.extra` exists, it will be sourced along with the other files. You can use this to add a few custom commands without the need to fork this entire repository, or to add commands you don’t want to commit to a public repository.
-
-My `~/.extra` looks something like this:
-
-```bash
-# Git credentials
-# Not in the repository, to prevent people from accidentally committing under my name
-GIT_AUTHOR_NAME="My Name"
-GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
-git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="myemail@example.com"
-GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
-git config --global user.email "$GIT_AUTHOR_EMAIL"
-```
+1. Sign into Dropbox, begin sync
+2. Open Caffeine, turn on
+3. Open 1Password, install license, configure vaults
+4. System Preferences > Spotlight > Keyboard Shortcuts... > Uncheck Show Spotlight Search (⌘Space)
+5. Open Alfred, install license, sync settings, set ⌘ + Space as hotkey
+6. Open and close Sublime Text
+7. Run ```source sublime.sh``` to point the user profile to Dropbox
+8. Re-open Sublime Text to allow Package Control to install all packages, enter license
+9. Open Tower, configure accounts, add license
 
 ## Thanks to...
 
-[Mathias Bynens](https://mathiasbynens.be/) for maintaining an understandable and powerful [collection of dotfiles](https://mths.be/dotfiles) that serves as the basis for this repo.
+- [Mathias Bynens](https://mathiasbynens.be/) for maintaining an understandable and powerful [collection of dotfiles](https://mths.be/dotfiles) that serves as the basis for this repo.
+- [Kevin Deldycke](https://github.com/kdeldycke) for his [macOS install script]((https://github.com/kdeldycke/dotfiles/blob/master/scripts/osx-install.sh)).
