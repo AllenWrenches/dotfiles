@@ -157,6 +157,7 @@ brew cask install qlmarkdown quicklook-json qlimagesize
 
 # Open apps so I'll not forget to login
 open -a Dropbox
+open -a Slack
 
 # Clean things up.
 brew linkapps
