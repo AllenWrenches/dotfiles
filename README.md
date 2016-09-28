@@ -58,15 +58,16 @@ Run with ```source .macos```
 
 1. Sign into Dropbox, begin sync
 2. Open Caffeine, turn on
-3. Open 1Password, install license, configure vaults
-4. System Preferences > Spotlight > Keyboard Shortcuts... > Uncheck Show Spotlight Search (⌘Space)
-5. Open Alfred, install license, sync settings, set ⌘ + Space as hotkey
-6. Open and close Sublime Text
-7. Run ```source sublime.sh``` to point the user profile to Dropbox
-8. Re-open Sublime Text to allow Package Control to install all packages, enter license
-9. Open Tower, configure accounts, add license
-10. Run Little Snitch installer ```/usr/local/Caskroom/little-snitch/```, add license, import rules
-11. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
+3. Copy .extra file into dotfiles directory, run ```source bootstrap.sh```
+4. Open 1Password, install license, configure vaults
+5. System Preferences > Spotlight > Keyboard Shortcuts... > Uncheck Show Spotlight Search (⌘Space)
+6. Open Alfred, install license, sync settings, set ⌘ + Space as hotkey
+7. Open and close Sublime Text
+8. Run ```source sublime.sh``` to point the user profile to Dropbox
+9. Re-open Sublime Text to allow Package Control to install all packages, enter license
+10. Open Tower, configure accounts, add license
+11. Run Little Snitch installer ```/usr/local/Caskroom/little-snitch/```, add license, import rules
+12. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
 
 ## Thanks to...
 
