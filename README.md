@@ -65,6 +65,8 @@ Run with ```source .macos```
 7. Run ```source sublime.sh``` to point the user profile to Dropbox
 8. Re-open Sublime Text to allow Package Control to install all packages, enter license
 9. Open Tower, configure accounts, add license
+10. Run Little Snitch installer ```/usr/local/Caskroom/little-snitch/```, add license, import rules
+11. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
 
 ## Thanks to...
 
