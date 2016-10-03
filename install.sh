@@ -78,7 +78,6 @@ mas install 407963104 # Pixelmator
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
-ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
 # Install more recent versions of some macOS tools.
 brew install homebrew/dupes/openssh
