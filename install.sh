@@ -100,6 +100,7 @@ brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" caffeine
+brew cask install --appdir="/Applications" calibre
 brew cask install --appdir="/Applications" couleurs
 brew cask install --appdir="/Applications" colour-contrast-analyser
 brew cask install --appdir="/Applications" dropbox
