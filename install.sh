@@ -193,7 +193,7 @@ npm install -g bower
 npm install -g caniuse-cmd
 npm install -g git-recent
 npm install -g grunt-cli
-npm install -g js-hint
+npm install -g jshint
 npm install -g pa11y
 npm install -g parker
 npm install -g sass-lint
