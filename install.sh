@@ -117,6 +117,7 @@ brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" java
 brew cask install --appdir="/Applications" kaleidoscope
+brew cask install --appdir="/Applications" kindle
 brew cask install --appdir="/Applications" licecap
 brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" macdown
