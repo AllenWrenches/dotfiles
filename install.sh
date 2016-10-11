@@ -63,11 +63,10 @@ brew install mas
 mas upgrade
 
 # Install binary apps from the Mac App Store.
-mas install 715768417  # Microsoft Remote Desktop
+mas install 715768417 # Microsoft Remote Desktop
 mas install 494803304 # WiFi Explorer
 mas install 867299399 # OmniFocus
 mas install 880001334 # Reeder
-mas install 690375005 # Unbound
 mas install 439697913 # Icon Slate
 mas install 410628904 # Wunderlist
 mas install 463362050 # PhotoSweeper
@@ -93,16 +92,18 @@ brew install ssh-copy-id
 
 # Install applications with Cask
 brew cask install --appdir="/Applications" 1password
-brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" acquia-dev-desktop
+brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" appcleaner
+brew cask install --appdir="/Applications" applepi-baker
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" calibre
-brew cask install --appdir="/Applications" couleurs
 brew cask install --appdir="/Applications" colour-contrast-analyser
+brew cask install --appdir="/Applications" couleurs
+brew cask install --appdir="/Applications" cura
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" exifrenamer
 brew cask install --appdir="/Applications" firefox
@@ -133,7 +134,6 @@ brew cask install --appdir="/Applications" sitesucker
 brew cask install --appdir="/Applications" sketchup
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" slic3r
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" superduper
