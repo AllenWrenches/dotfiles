@@ -73,6 +73,7 @@ mas install 463362050 # PhotoSweeper
 mas install 557168941 # Tweetbot
 mas install 413857545 # Divvy
 mas install 407963104 # Pixelmator
+mas install 408981434 # iMovie
 
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
