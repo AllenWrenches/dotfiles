@@ -144,6 +144,7 @@ brew cask install --appdir="/Applications" tower
 brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" transmit
 brew cask install --appdir="/Applications" tunnelbear
+brew cask install --appdir="/Applications" typora
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" zoomus
