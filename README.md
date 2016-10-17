@@ -1,6 +1,6 @@
 # Dotfiles
 
-A fork of [Mathias Bynens' dotfiles](https://mths.be/dotfiles).
+A fork of [Jason Morris' dotfiles](https://github.com/jsnmrs/dotfiles).
 
 This setup is fairly personalized and my first swing at using replicable dotfiles. You'll definitely want to review what will be installed before actually running the scripts.
 
@@ -68,8 +68,10 @@ Run with ```source .macos```
 10. Open Tower, configure accounts, add license
 11. Run Little Snitch installer ```/usr/local/Caskroom/little-snitch/```, add license, import rules
 12. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
+13. Install [CH VPN](https://communicatehealth.box.com/s/o1im3msvq76w9rmf6apx971ex38ru6nq)
 
 ## Thanks to...
 
+- [Jason Morris](http://jasonmorris.com) for creating an amazing set of [dotfiles](https://github.com/jsnmrs/dotfiles) that served as my starting point and for always recommending awesome tools for automation and new tech.
 - [Mathias Bynens](https://mathiasbynens.be/) for maintaining an understandable and powerful [collection of dotfiles](https://mths.be/dotfiles) that serves as the basis for this repo.
 - [Kevin Deldycke](https://github.com/kdeldycke) for his [macOS install script]((https://github.com/kdeldycke/dotfiles/blob/master/scripts/osx-install.sh)).
