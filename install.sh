@@ -21,7 +21,7 @@ sudo softwareupdate -i -a
 read -p "Computer name? " CompName
 if [ "$CompName" == "" ]
   then
-    CompName=MacbookPro
+    CompName=iMac
 fi
 sudo scutil --set ComputerName "$CompName"
 sudo scutil --set HostName "$CompName"
@@ -92,10 +92,8 @@ brew install speedtest_cli
 brew install ssh-copy-id
 
 # Install applications with Cask
-brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" acquia-dev-desktop
 brew cask install --appdir="/Applications" adobe-creative-cloud
-brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" applepi-baker
 brew cask install --appdir="/Applications" atom
