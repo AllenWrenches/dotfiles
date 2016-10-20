@@ -64,15 +64,7 @@ mas upgrade
 
 # Install binary apps from the Mac App Store.
 mas install 715768417 # Microsoft Remote Desktop
-mas install 494803304 # WiFi Explorer
-mas install 867299399 # OmniFocus
-mas install 880001334 # Reeder
-mas install 439697913 # Icon Slate
 mas install 410628904 # Wunderlist
-mas install 463362050 # PhotoSweeper
-mas install 557168941 # Tweetbot
-mas install 413857545 # Divvy
-mas install 407963104 # Pixelmator
 mas install 408981434 # iMovie
 
 # Install GNU core utilities (those that come with macOS are outdated).
@@ -98,6 +90,7 @@ brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" applepi-baker
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" bartender
+brew cask install --appdir="/Applications" box-sync
 brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" calibre
 brew cask install --appdir="/Applications" colour-contrast-analyser
@@ -118,6 +111,7 @@ brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" java
 brew cask install --appdir="/Applications" kaleidoscope
 brew cask install --appdir="/Applications" kindle
+brew cask install --appdir="/Applications" lastpass
 brew cask install --appdir="/Applications" licecap
 brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" macdown
@@ -157,9 +151,9 @@ brew cask install qlmarkdown quicklook-json qlimagesize
 
 # Open apps so I'll not forget to login
 open -a Dropbox
-open -a Slack
-open -a Divvy
-open -a "1Password 6"
+open -a hipchat
+open -a box\ sync
+open -a '/usr/local/Caskroom/lastpass/latest/LastPass Installer.app'
 
 # Install Divvy shortcuts
 open -a Safari divvy://import/YnBsaXN0MDDUAQIDBAUIfn9UJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABrxAUCQoXLzA3QUJLTFVWXl9naHBxeXpVJG51bGzSCwwNDlYkY2xhc3NaTlMub2JqZWN0c4ATqA8QERITFBUWgAKABYAHgAmAC4ANgA+AEd0YGRobHB0eHyAhIiMLJCUmJygpKissJyQqLl8QEnNlbGVjdGlvbkVuZENvbHVtbl8QEXNlbGVjdGlvblN0YXJ0Um93XGtleUNvbWJvQ29kZVdlbmFibGVkXWtleUNvbWJvRmxhZ3NfEBRzZWxlY3Rpb25TdGFydENvbHVtbltzaXplQ29sdW1uc1pzdWJkaXZpZGVkV25hbWVLZXlWZ2xvYmFsXxAPc2VsZWN0aW9uRW5kUm93WHNpemVSb3dzEAcQARB9CRIAlAAAEAIQCgiAAwmABFZDZW50ZXLSMTIzNlgkY2xhc3Nlc1okY2xhc3NuYW1lojQ1WFNob3J0Y3V0WE5TT2JqZWN0WFNob3J0Y3V03RgZGhscHR4fICEiIws4OTonPDkqKz4nOCouEAkQABB+CRIAlAAACIAGCYAEVEZ1bGzdGBkaGxwdHh8gISIjC0M5RCdGOSorSCc4Ki4QBBB7CRIAlAAACIAICYAEVExlZnTdGBkaGxwdHh8gISIjCzg5TSdPUCorUic4Ki4QfAkSAJQAABAFCIAKCYAEVVJpZ2h03RgZGhscHR4fICEiIwtDOVcnWTkqK1snQyouEBIJEgAUAAAIgAwJgARYVG9wIExlZnTdGBkaGxwdHh8gISIjCzg5YCdiUCorZCdDKi4QEwkSABQAAAiADgmABFlUb3AgUmlnaHTdGBkaGxwdHh8gISIjC0NQaSdrOSorbSc4Ki4QFAkSABQAAAiAEAmABFtCb3R0b20gTGVmdN0YGRobHB0eHyAhIiMLOFByJ3RQKit2JzgqLhAVCRIAFAAACIASCYAEXEJvdHRvbSBSaWdodNIxMnt8o3x9NV5OU011dGFibGVBcnJheVdOU0FycmF5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwAUwBZAF4AZQBwAHIAewB9AH8AgQCDAIUAhwCJAIsApgC7AM8A3ADkAPIBCQEVASABKAEvAUEBSgFMAU4BUAFRAVYBWAFaAVsBXQFeAWABZwFsAXUBgAGDAYwBlQGeAbkBuwG9Ab8BwAHFAcYByAHJAcsB0AHrAe0B7wHwAfUB9gH4AfkB+wIAAhsCHQIeAiMCJQImAigCKQIrAjECTAJOAk8CVAJVAlcCWAJaAmMCfgKAAoEChgKHAokCigKMApYCsQKzArQCuQK6ArwCvQK/AssC5gLoAukC7gLvAvEC8gL0AwEDBgMKAxkDIQMmAAAAAAAAAgEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAzg=

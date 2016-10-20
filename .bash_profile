@@ -23,6 +23,40 @@ shopt -s histappend;
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
 
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Shortcuts
+alias home="cd ~/"
+alias desktop="cd ~/Desktop"
+alias dropbox="cd ~/Dropbox"
+alias box-sync="cd ~/Box\ Sync"
+alias projects='cd ~/projects'
+alias themes='cd sites/all/themes/'
+alias dotfiles="cd ~/Documents/local-sites/dotfiles"
+alias jksrv="bundle exec jekyll serve --watch"
+alias phpsrv="php -S localhost:8000"
+alias emoji="open http://www.emoji-cheat-sheet.com/"
+alias myip='curl ipecho.net/plain ; echo'
+alias myip-from-jason='curl ip.appspot.com'
+
+# Show/Hide hidden files
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+# Git diff from HEAD to commit hash,
+# send to file on desktop, open in sublime text
+function gitdiff() {
+  local timestamp=$(date +%Y%m%d%H%M%S);
+  git diff --name-status HEAD $1 > ~/Desktop/diff$timestamp.txt && subl ~/Desktop/diff$timestamp.txt;
+}
+
+# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update'
+
 # Enable some Bash 4 features when possible:
 # * `autocd`, e.g. `**/qux` will enter `./foo/bar/baz/qux`
 # * Recursive globbing, e.g. `echo **/*.txt`
