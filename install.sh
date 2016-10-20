@@ -82,6 +82,7 @@ brew install pandoc
 brew install phantomjs
 brew install speedtest_cli
 brew install ssh-copy-id
+brew install tag
 
 # Install applications with Cask
 brew cask install --appdir="/Applications" acquia-dev-desktop
