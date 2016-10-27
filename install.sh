@@ -52,6 +52,9 @@ brew upgrade
 # Include duplicates packages
 brew tap homebrew/dupes
 
+# Include versions packages
+brew tap homebrew/versions
+
 # Install or upgrade Cask
 brew tap caskroom/cask
 
