@@ -71,7 +71,6 @@ mas install 494803304 # WiFi Explorer
 mas install 867299399 # OmniFocus
 mas install 880001334 # Reeder
 mas install 439697913 # Icon Slate
-mas install 410628904 # Wunderlist
 mas install 463362050 # PhotoSweeper
 mas install 557168941 # Tweetbot
 mas install 413857545 # Divvy
