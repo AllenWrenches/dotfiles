@@ -100,6 +100,7 @@ brew cask install --appdir="/Applications" exifrenamer
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" google-drive
 brew cask install --appdir="/Applications" grandperspective
 brew cask install --appdir="/Applications" handbrake
 brew cask install --appdir="/Applications" handbrakecli
@@ -146,6 +147,7 @@ brew cask install qlmarkdown quicklook-json qlimagesize
 
 # Open apps so I'll not forget to login
 open -a Dropbox
+open -a Google\ Drive
 open -a hipchat
 open -a box\ sync
 open -a '/usr/local/Caskroom/lastpass/latest/LastPass Installer.app'
