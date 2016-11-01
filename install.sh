@@ -52,6 +52,9 @@ brew upgrade
 # Include duplicates packages
 brew tap homebrew/dupes
 
+# Include versions packages
+brew tap homebrew/versions
+
 # Install or upgrade Cask
 brew tap caskroom/cask
 
@@ -76,7 +79,7 @@ brew install homebrew/dupes/openssh
 
 # Install other useful binaries.
 brew install git
-brew install imagemagick --with-webp
+brew install imagemagick --with-webp --with-ghostscript
 brew install node
 brew install pandoc
 brew install phantomjs
