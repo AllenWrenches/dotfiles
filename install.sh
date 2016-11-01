@@ -88,16 +88,13 @@ brew install tag
 brew cask install --appdir="/Applications" acquia-dev-desktop
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" appcleaner
-brew cask install --appdir="/Applications" applepi-baker
 brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" box-sync
 brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" calibre
 brew cask install --appdir="/Applications" citrix-receiver
 brew cask install --appdir="/Applications" colour-contrast-analyser
 brew cask install --appdir="/Applications" couleurs
-brew cask install --appdir="/Applications" cura
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" exifrenamer
 brew cask install --appdir="/Applications" firefox
@@ -106,7 +103,6 @@ brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" grandperspective
 brew cask install --appdir="/Applications" handbrake
 brew cask install --appdir="/Applications" handbrakecli
-brew cask install --appdir="/Applications" hazel
 brew cask install --appdir="/Applications" hipchat
 brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" iterm2
@@ -122,8 +118,6 @@ brew cask install --appdir="/Applications" microsoft-office
 brew cask install --appdir="/Applications" musicbrainz-picard
 brew cask install --appdir="/Applications" namechanger
 brew cask install --appdir="/Applications" nvalt
-brew cask install --appdir="/Applications" qbserve
-brew cask install --appdir="/Applications" ripit
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" sitesucker
 brew cask install --appdir="/Applications" sketchup
@@ -137,7 +131,6 @@ brew cask install --appdir="/Applications" the-unarchiver
 brew cask install --appdir="/Applications" tower
 brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" transmit
-brew cask install --appdir="/Applications" tunnelbear
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" zoomus
@@ -156,9 +149,6 @@ open -a Dropbox
 open -a hipchat
 open -a box\ sync
 open -a '/usr/local/Caskroom/lastpass/latest/LastPass Installer.app'
-
-# Install Divvy shortcuts
-open -a Safari divvy://import/YnBsaXN0MDDUAQIDBAUIfn9UJHRvcFgkb2JqZWN0c1gkdmVyc2lvblkkYXJjaGl2ZXLRBgdUcm9vdIABrxAUCQoXLzA3QUJLTFVWXl9naHBxeXpVJG51bGzSCwwNDlYkY2xhc3NaTlMub2JqZWN0c4ATqA8QERITFBUWgAKABYAHgAmAC4ANgA+AEd0YGRobHB0eHyAhIiMLJCUmJygpKissJyQqLl8QEnNlbGVjdGlvbkVuZENvbHVtbl8QEXNlbGVjdGlvblN0YXJ0Um93XGtleUNvbWJvQ29kZVdlbmFibGVkXWtleUNvbWJvRmxhZ3NfEBRzZWxlY3Rpb25TdGFydENvbHVtbltzaXplQ29sdW1uc1pzdWJkaXZpZGVkV25hbWVLZXlWZ2xvYmFsXxAPc2VsZWN0aW9uRW5kUm93WHNpemVSb3dzEAcQARB9CRIAlAAAEAIQCgiAAwmABFZDZW50ZXLSMTIzNlgkY2xhc3Nlc1okY2xhc3NuYW1lojQ1WFNob3J0Y3V0WE5TT2JqZWN0WFNob3J0Y3V03RgZGhscHR4fICEiIws4OTonPDkqKz4nOCouEAkQABB+CRIAlAAACIAGCYAEVEZ1bGzdGBkaGxwdHh8gISIjC0M5RCdGOSorSCc4Ki4QBBB7CRIAlAAACIAICYAEVExlZnTdGBkaGxwdHh8gISIjCzg5TSdPUCorUic4Ki4QfAkSAJQAABAFCIAKCYAEVVJpZ2h03RgZGhscHR4fICEiIwtDOVcnWTkqK1snQyouEBIJEgAUAAAIgAwJgARYVG9wIExlZnTdGBkaGxwdHh8gISIjCzg5YCdiUCorZCdDKi4QEwkSABQAAAiADgmABFlUb3AgUmlnaHTdGBkaGxwdHh8gISIjC0NQaSdrOSorbSc4Ki4QFAkSABQAAAiAEAmABFtCb3R0b20gTGVmdN0YGRobHB0eHyAhIiMLOFByJ3RQKit2JzgqLhAVCRIAFAAACIASCYAEXEJvdHRvbSBSaWdodNIxMnt8o3x9NV5OU011dGFibGVBcnJheVdOU0FycmF5EgABhqBfEA9OU0tleWVkQXJjaGl2ZXIACAARABYAHwAoADIANQA6ADwAUwBZAF4AZQBwAHIAewB9AH8AgQCDAIUAhwCJAIsApgC7AM8A3ADkAPIBCQEVASABKAEvAUEBSgFMAU4BUAFRAVYBWAFaAVsBXQFeAWABZwFsAXUBgAGDAYwBlQGeAbkBuwG9Ab8BwAHFAcYByAHJAcsB0AHrAe0B7wHwAfUB9gH4AfkB+wIAAhsCHQIeAiMCJQImAigCKQIrAjECTAJOAk8CVAJVAlcCWAJaAmMCfgKAAoEChgKHAokCigKMApYCsQKzArQCuQK6ArwCvQK/AssC5gLoAukC7gLvAvEC8gL0AwEDBgMKAxkDIQMmAAAAAAAAAgEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAzg=
 
 # Clean things up.
 brew linkapps

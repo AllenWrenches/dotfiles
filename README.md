@@ -4,6 +4,11 @@ A fork of [Jason Morris' dotfiles](https://github.com/jsnmrs/dotfiles).
 
 This setup is fairly personalized and my first swing at using replicable dotfiles. You'll definitely want to review what will be installed before actually running the scripts.
 
+## Pre-install
+
+1. Export SSH Keys
+2. Make sure passwords for FTP/RDP are up to date in Evernote
+
 ## Clean install of macOS 10.12
 
 My steps for a clean macOS install, using these dotfiles.
@@ -59,16 +64,14 @@ Run with ```source .macos```
 1. Sign into Dropbox, begin sync
 2. Open Caffeine, turn on
 3. Copy .extra file into dotfiles directory, run ```source bootstrap.sh```
-4. Open 1Password, install license, configure vaults
-5. System Preferences > Spotlight > Keyboard Shortcuts... > Uncheck Show Spotlight Search (⌘Space)
-6. Open Alfred, install license, sync settings, set ⌘ + Space as hotkey
-7. Open and close Sublime Text
-8. Run ```source sublime.sh``` to point the user profile to Dropbox
-9. Re-open Sublime Text to allow Package Control to install all packages, enter license
-10. Open Tower, configure accounts, add license
-11. Run Little Snitch installer ```/usr/local/Caskroom/little-snitch/```, add license, import rules
-12. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
-13. Install [CH VPN](https://communicatehealth.box.com/s/o1im3msvq76w9rmf6apx971ex38ru6nq)
+4. Open and close Sublime Text
+5. Run ```source sublime.sh``` to point the user profile to Dropbox
+6. Re-open Sublime Text to allow Package Control to install all packages, enter license
+7. Open Tower, configure accounts, add license
+8. Open Kaleidescope, add license
+9. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
+10. Open RDP, import RDP list from Dropbox
+11. Install [CH VPN](https://communicatehealth.box.com/s/o1im3msvq76w9rmf6apx971ex38ru6nq)
 
 ## Thanks to...
 

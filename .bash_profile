@@ -54,6 +54,15 @@ function gitdiff() {
   git diff --name-status HEAD $1 > ~/Desktop/diff$timestamp.txt && subl ~/Desktop/diff$timestamp.txt;
 }
 
+# Launch Zoom meeting (defaults to personal meeting ID unless new meeting ID is provided)
+function zoom() {
+  if [ $# -eq 0 ]; then
+    open https://zoom.us/j/2124442079;
+  else
+    open https://zoom.us/j/"$@";
+  fi;
+}
+
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update'
 
