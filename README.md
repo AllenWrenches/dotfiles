@@ -72,7 +72,7 @@ Run with ```source .macos```
 9. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
 10. Open RDP, import RDP list from Dropbox
 11. Install [MDB Access DB Viewer](http://eggerapps.at/mdbviewer/download/) and add license from Dropbox
-12. Install **CH VPN** (notes on Box)
+12. Install [CH VPN](https://communicatehealth.box.com/v/vpn-setup)
 
 ## Thanks to...
 
