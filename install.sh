@@ -78,6 +78,7 @@ brew install coreutils
 brew install homebrew/dupes/openssh
 
 # Install other useful binaries.
+brew install chrome-cli
 brew install git
 brew install imagemagick --with-webp --with-ghostscript
 brew install node

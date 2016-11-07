@@ -61,6 +61,7 @@ function zoom() {
   else
     open https://zoom.us/j/"$@";
   fi;
+  chrome-cli close;
 }
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
