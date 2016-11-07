@@ -73,6 +73,8 @@ Run with ```source .macos```
 10. Open RDP, import RDP list from Dropbox
 11. Install [MDB Access DB Viewer](http://eggerapps.at/mdbviewer/download/) and add license from Dropbox
 12. Install [CH VPN](https://communicatehealth.box.com/v/vpn-setup)
+13. Set up SSL VPN with SIP cycling - enter recovery mode (⌘+R on boot) ```csrutil disable; reboot```, install, enter recovery mode ```csrutil enable; reboot```
+14. Import Windows VM in VirtualBox
 
 ## Thanks to...
 
