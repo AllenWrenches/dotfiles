@@ -61,6 +61,7 @@ function zoom() {
   else
     open https://zoom.us/j/"$@";
   fi;
+  sleep 5s;
   chrome-cli close;
 }
 
