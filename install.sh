@@ -77,6 +77,9 @@ brew install coreutils
 # Install more recent versions of some macOS tools.
 brew install homebrew/dupes/openssh
 
+# Install Drush
+brew install drush
+
 # Install other useful binaries.
 brew install chrome-cli
 brew install git
