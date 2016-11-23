@@ -11,7 +11,13 @@ alias home="cd ~/"
 alias desktop="cd ~/Desktop"
 alias dropbox="cd ~/Dropbox"
 alias projects="cd ~/Projects"
+alias themes='cd sites/all/themes/'
 alias dotfiles="cd ~/Projects/dotfiles"
+alias jksrv="bundle exec jekyll serve --watch"
+alias phpsrv="php -S localhost:8000"
+alias emoji="open http://www.emoji-cheat-sheet.com/"
+alias myip='curl ipecho.net/plain ; echo'
+alias myip-from-jason='curl ip.appspot.com'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -21,12 +27,6 @@ else # macOS `ls`
 	colorflag="-G"
 	export LSCOLORS='BxBxhxDxfxhxhxhxhxcxcx'
 fi
-
-# List all files colorized in long format
-alias jksrv="bundle exec jekyll serve --watch"
-alias phpsrv="php -S localhost:8000"
-alias emoji="open http://www.emoji-cheat-sheet.com/"
-alias myip='curl ip.appspot.com'
 
 # Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
