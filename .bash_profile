@@ -58,6 +58,20 @@ function gitdiff() {
 function zoom() {
   if [ $# -eq 0 ]; then
     open https://zoom.us/j/2124442079;
+  elif [ "$1" = "jason" ]; then
+    open https://zoom.us/j/5821903388;
+  elif [ "$1" = "jocelyn" ]; then
+    open https://zoom.us/j/642557215;
+  elif [ "$1" = "ochen" ]; then
+    open https://zoom.us/j/7646309970;
+  elif [ "$1" = "hp" ]; then
+    open https://zoom.us/j/439552539;
+  elif [ "$1" = "darla" ]; then
+    open https://zoom.us/j/2721959345
+  elif [ "$1" = "staff-meeting" ]; then
+    open https://zoom.us/j/763409824;
+  elif [ "$1" = "ct" ]; then
+    open https://zoom.us/j/118360314;
   else
     open https://zoom.us/j/"$@";
   fi;
