@@ -5,6 +5,11 @@ function gitdiff() {
   git diff --name-status HEAD $1 > ~/Desktop/diff$timestamp.txt && subl ~/Desktop/diff$timestamp.txt;
 }
 
+# Git pull remote branch
+function branch() {
+  git checkout -t origin/"$@";
+}
+
 # `s` with no arguments opens the current directory in Sublime Text, otherwise
 # opens the given location
 function s() {
