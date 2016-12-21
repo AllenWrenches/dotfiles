@@ -77,6 +77,10 @@ brew install coreutils
 # Install more recent versions of some macOS tools.
 brew install homebrew/dupes/openssh
 
+# Download and Install Java 6 Runtime
+##### NEEDS WORK #####
+# curl "http://support.apple.com/downloads/DL1572/en_US/javaforosx.dmg"
+
 # Install Drush
 brew install drush
 
@@ -103,6 +107,7 @@ brew cask install --appdir="/Applications" citrix-receiver
 brew cask install --appdir="/Applications" colour-contrast-analyser
 brew cask install --appdir="/Applications" couleurs
 brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" eclipse-ide
 brew cask install --appdir="/Applications" exifrenamer
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" flux
@@ -141,6 +146,7 @@ brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" transmit
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
+brew cask install --appdir="/Applications" viscosity
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" zoomus
 
@@ -159,6 +165,7 @@ open -a Google\ Drive
 open -a hipchat
 open -a box\ sync
 open -a '/usr/local/Caskroom/lastpass/latest/LastPass Installer.app'
+open -a viscosity
 
 # Clean things up.
 brew linkapps
