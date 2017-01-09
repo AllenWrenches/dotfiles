@@ -144,9 +144,9 @@ brew cask install --appdir="/Applications" the-unarchiver
 brew cask install --appdir="/Applications" tower
 brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" transmit
+brew cask install --appdir="/Applications" tunnelblick
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" virtualbox
-brew cask install --appdir="/Applications" viscosity
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" zoomus
 
@@ -165,7 +165,7 @@ open -a Google\ Drive
 open -a hipchat
 open -a box\ sync
 open -a '/usr/local/Caskroom/lastpass/latest/LastPass Installer.app'
-open -a viscosity
+open -a tunnelblick
 
 # Clean things up.
 brew linkapps

@@ -73,7 +73,7 @@ Run with ```source .macos```
 10. Open RDP, import RDP list from Dropbox
 11. Install [MDB Access DB Viewer](http://eggerapps.at/mdbviewer/download/) and add license from Dropbox
 12. Install [CH VPN](https://communicatehealth.box.com/v/vpn-setup)
-13. Open Viscosity VPN. Add site from Dropbox
+13. Open TunnelBlick VPN. Add site from Dropbox
 14. Copy files into Applications/eclipse/plugins from Dropbox
 15. Open Eclipse. Go to Window > Open Perspective > Other. Select ```Rythmyx```
 16. Set up SSL VPN with SIP cycling - enter recovery mode (⌘+R on boot) ```csrutil disable; reboot```, install, enter recovery mode ```csrutil enable; reboot```
