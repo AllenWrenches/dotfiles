@@ -3,6 +3,8 @@ export PATH="$HOME/bin:$PATH";
 
 export PATH="/usr/local/sbin:$PATH";
 
+eval "$(thefuck --alias)"
+
 # Set up RVM
 source $HOME/.rvm/scripts/rvm;
 
