@@ -196,6 +196,7 @@ npm install -g a11y
 npm install -g bower
 npm install -g caniuse-cmd
 npm install -g git-recent
+npm install -g git-open
 npm install -g grunt-cli
 npm install -g jshint
 npm install -g pa11y
