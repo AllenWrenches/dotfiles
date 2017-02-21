@@ -160,6 +160,13 @@ brew cask install font-source-serif-pro
 # Install useful QuickLook plugins with Cask
 brew cask install qlmarkdown quicklook-json qlimagesize
 
+# Install MDB Access DB Viewer (not in caskroom)
+cd ~/Downloads && \
+curl -sS https://eggerapps-downloads.s3.amazonaws.com/mdbviewer-2.2.6.zip > mdbviewer.zip && \
+unzip mdbviewer.zip && \
+rm mdbviewer.zip && \
+mv MDB\ ACCDB\ Viewer.app /Applications/MDB\ ACCDB\ Viewer.app
+
 # Open apps so I'll not forget to login
 open -a Dropbox
 open -a Google\ Drive

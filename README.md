@@ -69,9 +69,9 @@ Run with ```source .macos```
 6. Re-open Sublime Text to allow Package Control to install all packages, enter license
 7. Open Tower, configure accounts, add license
 8. Open Kaleidescope, add license
-9. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
-10. Open RDP, import RDP list from Dropbox
-11. Install [MDB Access DB Viewer](http://eggerapps.at/mdbviewer/download/) and add license from Dropbox
+9. Open MDB Access DB Viewer, add license
+10. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
+11. Open RDP, import RDP list from Dropbox
 12. Install [CH VPN](https://communicatehealth.box.com/v/vpn-setup)
 13. Open TunnelBlick VPN. Add site from Dropbox
 14. Copy files into Applications/eclipse/plugins from Dropbox
