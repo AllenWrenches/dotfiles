@@ -32,12 +32,12 @@ Before you can do much on the command line (like using Git), Xcode Command Line 
 Clone dotfiles repo into ```~/Projects/dotfiles``` and copy configuration into user's home directory:
 
 1. ```mkdir ~/Projects && cd Projects```
-2. ```git clone https://github.com/jsnmrs/dotfiles.git && cd dotfiles```
+2. ```git clone https://github.com/AllenWrenches/dotfiles.git && cd dotfiles```
 3. ```source bootstrap.sh```
 
 ### Installing Applications
 
-The [install.sh script](https://github.com/jsnmrs/dotfiles/blob/master/install.sh) takes care of the majority of installations. This script will:
+The [install.sh script](https://github.com/AllenWrenches/dotfiles/blob/master/install.sh) takes care of the majority of installations. This script will:
 
 - Check for App Store Updates
 - Ask for computer name
@@ -55,7 +55,7 @@ Run with ```source install.sh```
 
 ### macOS Configuration
 
-The [.macos script](https://github.com/jsnmrs/dotfiles/blob/master/.macos) (a modified version of [Mathias Bynens' .macos script](https://mths.be/macos)) sets some sensible macOS defaults.
+The [.macos script](https://github.com/AllenWrenches/dotfiles/blob/master/.macos) (a modified version of [Mathias Bynens' .macos script](https://mths.be/macos)) sets some sensible macOS defaults.
 
 Run with ```source .macos```
 
@@ -69,9 +69,9 @@ Run with ```source .macos```
 6. Re-open Sublime Text to allow Package Control to install all packages, enter license
 7. Open Tower, configure accounts, add license
 8. Open Kaleidescope, add license
-9. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
-10. Open RDP, import RDP list from Dropbox
-11. Install [MDB Access DB Viewer](http://eggerapps.at/mdbviewer/download/) and add license from Dropbox
+9. Open MDB Access DB Viewer, add license
+10. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
+11. Open RDP, import RDP list from Dropbox
 12. Install [CH VPN](https://communicatehealth.box.com/v/vpn-setup)
 13. Open TunnelBlick VPN. Add site from Dropbox
 14. Copy files into Applications/eclipse/plugins from Dropbox
