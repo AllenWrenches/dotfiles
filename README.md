@@ -70,7 +70,7 @@ Run with ```source .macos```
 7. Open Tower, configure accounts, add license
 8. Open Kaleidescope, add license
 9. Open MDB Access DB Viewer, add license
-10. Run Creative Cloud installer ```/usr/local/Caskroom/adobe-creative-cloud/```, install Photoshop, Illustrator, Acrobat
+10. Run Creative Cloud installer ```open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app```, install Photoshop, Illustrator, Acrobat
 11. Open RDP, import RDP list from Dropbox
 12. Install [CH VPN](https://communicatehealth.box.com/v/vpn-setup)
 13. Open TunnelBlick VPN. Add site from Dropbox

@@ -108,7 +108,6 @@ brew cask install --appdir="/Applications" citrix-receiver
 brew cask install --appdir="/Applications" colour-contrast-analyser
 brew cask install --appdir="/Applications" couleurs
 brew cask install --appdir="/Applications" dropbox
-brew cask install --appdir="/Applications" eclipse-ide
 brew cask install --appdir="/Applications" exifrenamer
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" firefox
@@ -168,6 +167,14 @@ curl -sS https://eggerapps-downloads.s3.amazonaws.com/mdbviewer-2.2.6.zip > mdbv
 unzip mdbviewer.zip && \
 rm mdbviewer.zip && \
 mv MDB\ ACCDB\ Viewer.app /Applications/MDB\ ACCDB\ Viewer.app
+
+# Install Eclipse SDK (not in caskroom)
+cd ~/Downloads && \
+curl -sS http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.8.2-201301310800/eclipse-SDK-3.8.2-macosx-cocoa.tar.gz && \
+gunzip -c eclipse-SDK-3.8.2-macosx-cocoa.tar.gz | tar xopf - && \
+rm eclipse-SDK-3.8.2-macosx-cocoa.tar.gz && \
+mv eclipse /Applications/eclipse
+
 
 # Open apps so I'll not forget to login
 open -a Dropbox
