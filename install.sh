@@ -78,8 +78,11 @@ brew install coreutils
 brew install homebrew/dupes/openssh
 
 # Download and Install Java 6 Runtime
-##### NEEDS WORK #####
-# curl "http://support.apple.com/downloads/DL1572/en_US/javaforosx.dmg"
+cd ~/Downloads && \
+curl -Lo javaforosx.dmg "http://support.apple.com/downloads/DL1572/en_US/javaforosx.dmg" && \
+hdiutil attach javaforosx.dmg && \
+sudo installer -pkg /Volumes/Java\ for\ OS\ X\ 2015-001/JavaForOSX.pkg -target / && \
+hdiutil detach /Volumes/Java\ for\ OS\ X\ 2015-001/
 
 # Install Drush
 brew install drush
@@ -171,9 +174,9 @@ mv MDB\ ACCDB\ Viewer.app /Applications/MDB\ ACCDB\ Viewer.app
 
 # Install Eclipse SDK (not in caskroom)
 cd ~/Downloads && \
-curl -sS http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.8.2-201301310800/eclipse-SDK-3.8.2-macosx-cocoa.tar.gz && \
-gunzip -c eclipse-SDK-3.8.2-macosx-cocoa.tar.gz | tar xopf - && \
-rm eclipse-SDK-3.8.2-macosx-cocoa.tar.gz && \
+curl -sS http://www.eclipse.org/downloads/download.php?file=/webtools/downloads/drops/R2.0/R-2.0-200706260303/wtp-all-in-one-sdk-R-2.0-200706260303-macosx-carbon.tar.gz && \
+gunzip -c wtp-all-in-one-sdk-R-2.0-200706260303-macosx-carbon.tar.gz | tar xopf - && \
+rm wtp-all-in-one-sdk-R-2.0-200706260303-macosx-carbon.tar.gz && \
 mv eclipse /Applications/eclipse
 
 
