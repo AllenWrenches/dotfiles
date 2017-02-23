@@ -108,6 +108,7 @@ brew cask install --appdir="/Applications" citrix-receiver
 brew cask install --appdir="/Applications" colour-contrast-analyser
 brew cask install --appdir="/Applications" couleurs
 brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" evernote
 brew cask install --appdir="/Applications" exifrenamer
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" firefox
