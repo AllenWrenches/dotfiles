@@ -69,6 +69,8 @@ mas upgrade
 mas install 715768417 # Microsoft Remote Desktop
 mas install 410628904 # Wunderlist
 mas install 408981434 # iMovie
+mas install 926036361 # Lastpass
+mas install 1091189122 # Bear notes
 
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -132,6 +134,7 @@ brew cask install --appdir="/Applications" licecap
 brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" macdown
 brew cask install --appdir="/Applications" malwarebytes-anti-malware
+brew cask install --appdir="/Applications" mamp
 brew cask install --appdir="/Applications" microsoft-office
 brew cask install --appdir="/Applications" musicbrainz-picard
 brew cask install --appdir="/Applications" namechanger
@@ -139,6 +142,7 @@ brew cask install --appdir="/Applications" nvalt
 brew cask install --appdir="/Applications" scrutiny
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" sitesucker
+brew cask install --appdir="/Applications" sketch
 brew cask install --appdir="/Applications" sketchup
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
