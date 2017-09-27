@@ -3,6 +3,8 @@ export PATH="$HOME/bin:$PATH";
 
 export PATH="/usr/local/sbin:$PATH";
 
+export PATH="/Users/matt/tools/atlassian-cli-6.8.0:$PATH";
+
 eval "$(thefuck --alias)"
 
 # Set up RVM

@@ -61,6 +61,9 @@ brew tap caskroom/cask
 # Include Cask fonts
 brew tap caskroom/fonts
 
+# Install Brew Cask Upgrade
+brew tap buo/cask-upgrade
+
 # Install Mac App Store CLI and upgrade all apps.
 brew install mas
 mas upgrade
