@@ -119,7 +119,7 @@ brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
 brew cask install --appdir="/Applications" exifrenamer
 brew cask install --appdir="/Applications" filezilla
-brew cask install --appdir="/Applications" firefox
+# brew cask install --appdir="/Applications" firefox (not able to install latest Firefox build because of SSL VPN)
 brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" google-drive
@@ -186,6 +186,12 @@ gunzip -c wtp-all-in-one-sdk-R-2.0-200706260303-macosx-carbon.tar.gz | tar xopf 
 rm wtp-all-in-one-sdk-R-2.0-200706260303-macosx-carbon.tar.gz && \
 mv eclipse /Applications/eclipse
 
+# Install Firefox 51 (Last version with NPAPI plugins enabled)
+cd ~/Downloads && \
+curl -O https://ftp.mozilla.org/pub/firefox/releases/51.0.1/mac/en-US/Firefox%2051.0.1.dmg && \
+hdiutil attach Firefox%2051.0.1.dmg && \
+sudo cp -R /Volumes/Firefox/Firefox.app /Applications && \
+hdiutil unmount /Volumes/Firefox
 
 # Open apps so I'll not forget to login
 open -a Dropbox
