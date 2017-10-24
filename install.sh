@@ -179,6 +179,13 @@ unzip mdbviewer.zip && \
 rm mdbviewer.zip && \
 mv MDB\ ACCDB\ Viewer.app /Applications/MDB\ ACCDB\ Viewer.app
 
+# Install Box Notes App (not in caskroom)
+cd ~/Downloads && \
+curl -O https://e3.boxcdn.net/box-installers/boxnotes/mac/latest/Box%20Notes.zip && \
+unzip -q Box%20Notes.zip && \
+rm Box%20Notes.zip && \
+mv Box\ Notes.app  /Applications/Box\ Notes.app
+
 # Install Eclipse SDK (not in caskroom)
 cd ~/Downloads && \
 curl -sS http://www.eclipse.org/downloads/download.php?file=/webtools/downloads/drops/R2.0/R-2.0-200706260303/wtp-all-in-one-sdk-R-2.0-200706260303-macosx-carbon.tar.gz && \
