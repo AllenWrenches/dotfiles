@@ -105,7 +105,7 @@ brew install tag
 brew install thefuck
 
 # Install applications with Cask
-brew cask install --appdir="/Applications" acquia-dev-desktop
+brew cask install --appdir="/Applications" acquia-dev
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" atom
