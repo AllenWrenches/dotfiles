@@ -105,6 +105,7 @@ brew install tag
 brew install thefuck
 
 # Install applications with Cask
+brew cask install --appdir="/Applications" abstract
 brew cask install --appdir="/Applications" acquia-dev
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" appcleaner
@@ -122,7 +123,7 @@ brew cask install --appdir="/Applications" filezilla
 # brew cask install --appdir="/Applications" firefox (not able to install latest Firefox build because of SSL VPN)
 brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" google-drive
+brew cask install --appdir="/Applications" google-backup-and-sync
 brew cask install --appdir="/Applications" grandperspective
 brew cask install --appdir="/Applications" handbrake
 brew cask install --appdir="/Applications" handbrakecli
@@ -202,7 +203,7 @@ hdiutil unmount /Volumes/Firefox
 
 # Open apps so I'll not forget to login
 open -a Dropbox
-open -a Google\ Drive
+open -a Backup\ and\ Sync
 open -a hipchat
 open -a box\ sync
 open -a '/usr/local/Caskroom/lastpass/latest/LastPass Installer.app'
@@ -250,4 +251,3 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
   "Transmission" "Tweetbot" "Twitter" "iCal"; do
   killall "${app}" &> /dev/null
 done
-
