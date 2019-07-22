@@ -1,0 +1,55 @@
+# Shortcuts for easier navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias home="cd ~/"
+alias desktop="cd ~/Desktop"
+alias dotfiles="cd ~/Projects/dotfiles"
+alias downloads="cd ~/Downloads"
+alias dropbox="cd ~/Dropbox"
+alias projects="cd ~/Projects"
+
+alias usebash="chsh -s $(which bash)"
+alias usezsh="chsh -s $(which zsh)"
+
+# Start local servers
+alias jksrv="bundle exec jekyll serve --watch"
+alias phpsrv="php -S localhost:8000"
+
+# Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+alias update='sudo softwareupdate -ia --include-config-data; sudo gem update --system; sudo gem update; gem cleanup; brew update; brew upgrade; mas upgrade; npm install npm -g; npm update -g; brew cleanup'
+
+# IP addresses
+alias localip="ipconfig getifaddr en0"
+
+# Randomize MAC address until reboot
+# https://remysharp.com/2017/05/29/getting-free-wifi
+alias macspoof="sudo ifconfig en0 ether `openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'`"
+
+# Flush Directory Service cache
+alias flush="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
+
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+# Empty the Trash on all mounted volumes and the main HDD.
+# Also, clear Apple’s System Logs to improve shell startup speed.
+# Finally, clear download history from quarantine. https://mths.be/bum
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl; sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2 'delete from LSQuarantineEvent'; sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2 'vacuum LSQuarantineEvent'"
+
+# Add spacer (blank) icon to dock
+alias dockspace="defaults write com.apple.dock persistent-apps -array-add '{\"tile-type\"=\"spacer-tile\";}' && killall Dock"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Speed up Time Machine backups - re-run after every reboot
+# http://www.imore.com/how-speed-your-time-machine-backups
+alias timemachine="sudo sysctl debug.lowpri_throttle_enabled=0"
+
+# Print each PATH entry on a separate line
+alias path='echo -e ${PATH//:/\\n}'
+
+# Strongly check for and update Node modules in package.json
+alias npmupdate="rm -rf node_modules && rm -f package-lock.json && ncu -u && npm install"

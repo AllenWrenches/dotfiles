@@ -1,6 +1,6 @@
 # Dotfiles
 
-A fork of [Jason Morris' dotfiles](https://github.com/jsnmrs/dotfiles).
+A fork of [Jason Morris' dotfiles](https://github.com/AllenWrenches/dotfiles).
 
 This setup is fairly personalized and my first swing at using replicable dotfiles. You'll definitely want to review what will be installed before actually running the scripts.
 
@@ -27,60 +27,102 @@ Before you can do much on the command line (like using Git), Xcode Command Line 
 2. Install Xcode Command Line Tools ```xcode-select --install```
 3. Click install, agree to license
 
-### Dotfiles
+## Establishing dotfiles
 
-Clone dotfiles repo into ```~/Projects/dotfiles``` and copy configuration into user's home directory:
+The [home/install.sh script](https://github.com/AllenWrenches/dotfiles/blob/master/home/install.sh) will run a copy all of the dotfiles (.\*) in `home/` into to your home folder.
 
-1. ```mkdir ~/Projects && cd Projects```
-2. ```git clone https://github.com/AllenWrenches/dotfiles.git && cd dotfiles```
-3. ```source bootstrap.sh```
+Take a look through [the dotfiles (.\*)](https://github.com/AllenWrenches/dotfiles/blob/master/home/) before running bootstrap.sh to make any adjustments. The script will warn that files in your home folder will be overwritten.
 
-### Installing Applications
+**Run it:** `source home/install.sh`
 
-The [install.sh script](https://github.com/AllenWrenches/dotfiles/blob/master/install.sh) takes care of the majority of installations. This script will:
+### Add private commands and settings to `.extra`
 
-- Check for App Store Updates
-- Ask for computer name
-- Offer to delete default dock icons
-- Install Homebrew, download taps, update/upgrade Homebrew
-- Install specific Mac App Store apps (will prompt for AppleID)
-- Install utilites, fonts, quick look plugins, and applications via Cask
-- Open applications that need to be logged into (Dropbox, Slack)
-- Run brew clean up tasks
-- Install RVM, specific Ruby gems globally
-- Install specific Node libraries globally
-- Kill/reload Dock, Finder, etc
+If `~/.extra` exists, it will be sourced along with the other files. You can use this to add commands and settings you don’t want to commit to a public repository. My `~/.extra` looks something like this:
 
-Run with ```source install.sh```
+```bash
+# Git credentials
+GIT_AUTHOR_NAME="Jason Morris"
+GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+git config --global user.name "$GIT_AUTHOR_NAME"
+GIT_AUTHOR_EMAIL="jason@mailinator.com"
+GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+git config --global user.email "$GIT_AUTHOR_EMAIL"
 
-### macOS Configuration
+# Project aliases
+alias clientsite="cd ~/Projects/clientsite"
+alias businesspapers="cd ~/Projects/my/important/business/papers"
 
-The [.macos script](https://github.com/AllenWrenches/dotfiles/blob/master/.macos) (a modified version of [Mathias Bynens' .macos script](https://mths.be/macos)) sets some sensible macOS defaults.
+# Access tokens
+export APItoken=0000ffff0000ffff0000ffff0000ffff0000ffff
+```
 
-Run with ```source .macos```
+## Install scripts
 
-### More Setup
+### Installing Homebrew, binaries, and applications
 
-1. Sign into Dropbox, begin sync
-2. Open Caffeine, turn on
-3. Copy .extra file into dotfiles directory, run ```source bootstrap.sh```
-4. Open and close Sublime Text
-5. Run ```source sublime.sh``` to point the user profile to Dropbox
-6. Re-open Sublime Text to allow Package Control to install all packages, enter license
-7. Open Tower, configure accounts, add license
-8. Open Kaleidescope, add license
-9. Open MDB Access DB Viewer, add license
-10. Run Creative Cloud installer ```open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app```, install Photoshop, Illustrator, Acrobat
-11. Open RDP, import RDP list from Dropbox
-12. Install [CH VPN](https://communicatehealth.box.com/v/vpn-setup)
-13. Open TunnelBlick VPN. Add site from Dropbox
-14. Copy files into Applications/eclipse/plugins from Dropbox
-15. Open Eclipse. Go to Window > Open Perspective > Other. Select ```Rythmyx```
-16. Set up SSL VPN with SIP cycling - enter recovery mode (⌘+R on boot) ```csrutil disable; reboot```, install, enter recovery mode ```csrutil enable; reboot```
-17. Import Windows VM in VirtualBox
+The [homebrew/install.sh](https://github.com/AllenWrenches/dotfiles/blob/master/homebrew/install.sh) script will:
+
+1. Install (or update) Homebrew
+2. Install a list of Homebrew formulae
+3. Install a list of fonts via Homebrew cask
+4. Install a list of Mac App Store applications via `mas`
+5. Install a list of applications via Homebrew Cask
+
+**Run it:** `source homebrew/install.sh`
+
+### Installing NVM and global Node modules
+
+The [node/install.sh](https://github.com/AllenWrenches/dotfiles/blob/master/node/install.sh) script will:
+
+1. Install (or update) [NVM](https://github.com/nvm-sh/nvm)
+2. Install (or update to) the latest stable version of Node.js
+3. Install list of global Node modules.
+
+**Run it:** `source node/install.sh`
+
+### Installing RVM and Ruby gems
+
+The [ruby/install.sh](https://github.com/AllenWrenches/dotfiles/blob/master/ruby/install.sh) script will:
+
+1. Install (or update) [RVM](https://rvm.io)
+2. Run RVM setup script
+3. Install list of Ruby gems
+
+**Run it:** `source ruby/install.sh`
+
+### Configuring Atom
+
+The [`atom/install.sh`](https://github.com/AllenWrenches/dotfiles/blob/master/atom/install.sh) script will:
+
+1. Create a backup of `~/.atom/config.cson` as `~/.atom/config-backup.cson`
+2. Copy the [config.cson from this repo](https://github.com/AllenWrenches/dotfiles/blob/master/atom/config.cson) to `~/.atom/config.cson`.
+3. Install a [list of packages and themes](https://github.com/AllenWrenches/dotfiles/blob/master/atom/packages.list)
+
+**Run it:** `source atom/install.sh`
+
+### Setting macOS defaults
+
+The [macos/configure-macos.sh](https://github.com/AllenWrenches/dotfiles/blob/master/macos/configure-macos.sh) script is a blend of [Kevin Deldycke’s macos-config.sh](https://github.com/kdeldycke/dotfiles/blob/master/scripts/macos-config.sh) and [Mathias Bynens’ .macos](https://mths.be/macos) scripts. It sets a number of sensible defaults for macOS 10.14. Tip: review and comment out uncertain commands before running.
+
+**Run it:** `source macos/configure-macos.sh`
+
+### Configure macOS dock icons
+
+The [macos/configure-dock.sh](https://github.com/AllenWrenches/dotfiles/blob/master/macos/configure-dock.sh) script will clear and add specific application icons to the dock.
+
+**Run it:** `source macos/configure-dock.sh`
+
+## Housekeeping
+
+- `brew leaves` – list installed Homebrew formulae
+- `brew cask list` – list installed Homebrew casks
+- `mas list` – list installed applications from Mac App Store
+- `npm list -g --depth=0` – list globally installed node modules
+- `gem query --local` – list locally installed Ruby gems
+- `apm list -i` – list installed Atom plugins and themes
 
 ## Thanks to...
 
-- [Jason Morris](http://jasonmorris.com) for creating an amazing set of [dotfiles](https://github.com/jsnmrs/dotfiles) that served as my starting point and for always recommending awesome tools for automation and new tech.
+- [Jason Morris](http://jasonmorris.com) for creating an amazing set of [dotfiles](https://github.com/AllenWrenches/dotfiles) that served as my starting point and for always recommending awesome tools for automation and new tech.
 - [Mathias Bynens](https://mathiasbynens.be/) for maintaining an understandable and powerful [collection of dotfiles](https://mths.be/dotfiles) that serves as the basis for this repo.
 - [Kevin Deldycke](https://github.com/kdeldycke) for his [macOS install script]((https://github.com/kdeldycke/dotfiles/blob/master/scripts/osx-install.sh)).
