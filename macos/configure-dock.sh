@@ -43,10 +43,9 @@ clear_dock
 add_app_to_dock "Firefox"
 add_app_to_dock "Safari"
 add_spacer_to_dock
-add_app_to_dock "Fantastical 2"
-add_app_to_dock "OmniFocus"
+add_app_to_dock "Calendar"
+add_app_to_dock "Evernote"
 add_app_to_dock "TickTick"
-add_app_to_dock "Notes"
 add_spacer_to_dock
 add_app_to_dock "iTerm"
 add_app_to_dock "Atom"
