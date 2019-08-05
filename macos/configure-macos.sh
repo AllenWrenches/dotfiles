@@ -770,6 +770,15 @@ defaults write org.m0k.transmission RandomPort -bool true
 defaults write org.m0k.transmission SleepPrevent -bool false
 
 ###############################################################################
+# VS Code
+###############################################################################
+
+cat << EOF >> ~/.bash_profile
+# Add Visual Studio Code (code)
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+EOF
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
