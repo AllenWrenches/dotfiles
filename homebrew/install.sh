@@ -48,7 +48,6 @@ echo -e "\\n⬇️  Installing applications via Homebrew Cask"
 
 brew tap homebrew/cask-versions
 
-brew cask install --appdir="/Applications" acquia-dev
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" aerial
 brew cask install --appdir="/Applications" atom
@@ -61,6 +60,7 @@ brew cask install --appdir="/Applications" dash
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" firefox-developer-edition # homebrew/cask-versions
+brew cask install --appdir="/Applications" gitkraken
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" handbrake
 brew cask install --appdir="/Applications" imageoptim
@@ -73,7 +73,6 @@ brew cask install --appdir="/Applications" microsoft-office
 brew cask install --appdir="/Applications" moom
 brew cask install --appdir="/Applications" namechanger
 brew cask install --appdir="/Applications" omnidisksweeper
-brew cask install --appdir="/Applications" scrutiny
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" sketch
 brew cask install --appdir="/Applications" sketchup
@@ -84,9 +83,11 @@ brew cask install --appdir="/Applications" superduper
 brew cask install --appdir="/Applications" taskpaper
 brew cask install --appdir="/Applications" the-unarchiver
 brew cask install --appdir="/Applications" ticktick
+brew cask install --appdir="/Applications" toggl
 brew cask install --appdir="/Applications" tower
 brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" transmit4 # homebrew/cask-versions
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" virtualbox-extension-pack
+brew cask install --appdir="/Applications" visual-studio-code
 brew cask install --appdir="/Applications" zoomus
