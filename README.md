@@ -41,10 +41,10 @@ If `~/.extra` exists, it will be sourced along with the other files. You can use
 
 ```bash
 # Git credentials
-GIT_AUTHOR_NAME="Jason Morris"
+GIT_AUTHOR_NAME="Matt Allen"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="jason@mailinator.com"
+GIT_AUTHOR_EMAIL="matt@mailinator.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 
