@@ -40,16 +40,17 @@ function reset_dock {
 # WARNING: permanently clears existing dock
 clear_dock
 
+add_app_to_dock "Google Chrome"
 add_app_to_dock "Firefox"
 add_app_to_dock "Safari"
 add_spacer_to_dock
 add_app_to_dock "Calendar"
-add_app_to_dock "Evernote"
-add_app_to_dock "TickTick"
+add_app_to_dock "TogglDesktop"
+add_app_to_dock "Zoom.us"
 add_spacer_to_dock
 add_app_to_dock "iTerm"
 add_app_to_dock "Atom"
-add_app_to_dock "Tower"
-add_app_to_dock "Spotify"
+add_app_to_dock "Visual Studio Code"
+add_app_to_dock "GitKraken"
 
 killall Dock
