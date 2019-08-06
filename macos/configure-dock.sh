@@ -44,9 +44,12 @@ add_app_to_dock "Google Chrome"
 add_app_to_dock "Firefox"
 add_app_to_dock "Safari"
 add_spacer_to_dock
+add_app_to_dock "Slack"
+add_app_to_dock "Zoom.us"
+add_app_to_dock "Messages"
+add_spacer_to_dock
 add_app_to_dock "Calendar"
 add_app_to_dock "TogglDesktop"
-add_app_to_dock "Zoom.us"
 add_spacer_to_dock
 add_app_to_dock "iTerm"
 add_app_to_dock "Atom"
