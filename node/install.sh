@@ -14,6 +14,7 @@ if test ! "$(npm --version)"
 else
   echo -e "\\n⬇️  Install global Node modules"
   npm install -g axe-cli
+  npm install -g git-open
   npm install -g git-standup
   npm install -g grunt-cli
   npm install -g gulp-cli
