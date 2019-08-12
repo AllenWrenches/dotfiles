@@ -53,6 +53,7 @@ brew tap homebrew/cask-versions
 
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" aerial
+brew cask install --appdir="/Applications" android-studio
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" brave-browser
