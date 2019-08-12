@@ -43,6 +43,9 @@ mas install 408981434 # iMovie
 mas install 926036361 # Lastpass
 mas install 1091189122 # Bear notes
 mas install 1295203466 # Microsoft Remote Desktop 10
+mas install 497799835 # Xcode
+
+https://apps.apple.com/us/app/xcode/id497799835?mt=12
 
 echo -e "\\n⬇️  Installing applications via Homebrew Cask"
 
