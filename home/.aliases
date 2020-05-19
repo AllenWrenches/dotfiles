@@ -8,6 +8,7 @@ alias dotfiles="cd ~/projects/dotfiles"
 alias downloads="cd ~/Downloads"
 alias dropbox="cd ~/Dropbox"
 alias projects="cd ~/projects"
+alias gh="gloomhaven-helper"
 
 alias usebash="chsh -s $(which bash)"
 alias usezsh="chsh -s $(which zsh)"
